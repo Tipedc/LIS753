@@ -4,5 +4,12 @@ body {
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: #000044;
+    background-color: #9800e3;
+}
+
+article {
+    padding: 20%;
+    text-align: left;
+    height: inherit;
+    background-color: blue;
 }
