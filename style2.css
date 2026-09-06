@@ -4,17 +4,19 @@ a:link {
 
 body {
     padding: 5%;
+    margin: 5%;
     text-align: center;
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: #9800e3;
+    background-color: #33004d;
 }
 
 section {
+    margin: 5%;
     padding: 20%;
     text-align: left;
     height: 30%;
-    width: 30%;
-    background-color: blue;
+    width: 20%;
+    background-color: darkblue;
 }
