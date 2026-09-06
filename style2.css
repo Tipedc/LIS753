@@ -2,6 +2,10 @@ a:link {
   color: gold;
 }
 
+h1 {
+  color: orange;
+}
+
 body {
     padding: 5%;
     margin: 5%;
