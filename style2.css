@@ -1,3 +1,7 @@
+a:link {
+  color: gold;
+}
+
 body {
     padding: 5%;
     text-align: center;
@@ -7,9 +11,10 @@ body {
     background-color: #9800e3;
 }
 
-article {
+section {
     padding: 20%;
     text-align: left;
-    height: inherit;
+    height: 30%;
+    width: 30%;
     background-color: blue;
 }
