@@ -3,7 +3,7 @@ a:link {
 }
 
 h1 {
-    color: blue;
+    color: greenyellow;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: brown;
+    background-color: darkbrown;
 }
 
 section {
