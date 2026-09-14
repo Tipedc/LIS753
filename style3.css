@@ -28,3 +28,7 @@ section {
     width: 80%;
     background-color: darkgreen;
 }
+
+area {
+    align-content: center;
+}
