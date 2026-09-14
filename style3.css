@@ -6,6 +6,10 @@ h1 {
     color: greenyellow;
 }
 
+h2 {
+  color: palegreen;
+}
+
 body {
     padding: 5%;
     margin: 5%;
@@ -13,7 +17,7 @@ body {
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: darkbrown;
+    background-color: darkolivegreen;
 }
 
 section {
