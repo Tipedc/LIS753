@@ -1,0 +1,26 @@
+a:link {
+  color: gold;
+}
+
+h1 {
+    color: orange;
+}
+
+body {
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    height: 100%;
+    color: #FFFFFF;
+    background: 50% 50% no-repeat;
+    background-color: #390055;
+}
+
+section {
+    margin: 5%;
+    padding: 20%;
+    text-align: left;
+    height: 30%;
+    width: 20%;
+    background-color: darkblue;
+}
