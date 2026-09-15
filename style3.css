@@ -13,7 +13,6 @@ h2 {
 body {
     padding: 5%;
     margin: 5%;
-    display:inline;
     text-align: center;
     height: 100%;
     color: #FFFFFF;
@@ -25,13 +24,13 @@ article {
     margin: 5%;
     padding: 5%;
     text-align: left;
-    display:inline;
     height: 30%;
     width: 40%;
     background-color: darkgreen;
 }
 
 section {
+  display:flex;
     margin: 5%;
     padding: 5%;
     text-align: left;
