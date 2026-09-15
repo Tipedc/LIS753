@@ -21,6 +21,7 @@ body {
 }
 
 section {
+    display:inline-block;
     margin: 5%;
     padding: 5%;
     text-align: left;
@@ -30,6 +31,5 @@ section {
 }
 
 area {
-    display: inline-block;
     align-content: center;
 }
