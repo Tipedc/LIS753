@@ -20,6 +20,15 @@ body {
     background-color: darkolivegreen;
 }
 
+article {
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+    height: 30%;
+    width: 80%;
+    background-color: darkgreen;
+}
+
 section {
     display:inline-block;
     margin: 5%;
@@ -27,7 +36,7 @@ section {
     text-align: left;
     height: 30%;
     width: 80%;
-    background-color: darkgreen;
+    background-color: darkgoldenrod;
 }
 
 area {
