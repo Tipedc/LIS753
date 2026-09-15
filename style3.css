@@ -4,10 +4,15 @@ a:link {
 
 h1 {
     color: greenyellow;
+    font-family: Copperplate,fantasy;
 }
 
 h2 {
   color: palegreen;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
