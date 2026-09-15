@@ -13,6 +13,7 @@ h2 {
 body {
     padding: 5%;
     margin: 5%;
+    display:inline-block;
     text-align: center;
     height: 100%;
     color: #FFFFFF;
@@ -25,17 +26,16 @@ article {
     padding: 5%;
     text-align: left;
     height: 30%;
-    width: 80%;
+    width: 40%;
     background-color: darkgreen;
 }
 
 section {
-    display:inline-block;
     margin: 5%;
     padding: 5%;
     text-align: left;
     height: 30%;
-    width: 80%;
+    width: 40%;
     background-color: darkgoldenrod;
 }
 
