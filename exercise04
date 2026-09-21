@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style4.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIS753 Exercise 4</title>
+  </head>
+  <body>
+    <h1>This is the webpage for Exercise 4</h1>
+  
+    <p>Hopefully this includes everything that I need.</p>
+    <a href="./exercise03.html">Here is Exercise 2</a>
+    <div>
+    <article><h2>This is going to be the lists section</h2>
+    <p>Here is a recipe for Torta Caprese</p>
+      <h3>Ingredients</h3>
+    <ul>
+      <li>125g almond flour</li>
+      <li>125g dark chocolate</li>
+      <li>125g unsalted butter</li>
+      <li>125g sugar</li>
+      <li>3 large eggs, separated</li>
+    </ul>
+    <h3>Directions</h3>
+    <ul>
+      <li>Preheat oven to 320F</li>
+      <li>Melt chocolate and butter in a bowl, add sugar and almond flour to it</li>
+      <li>Once cool, add egg yolks and stir</li>
+      <li>In a separate bowl whip egg whites to soft peaks</li>
+      <li>Fold egg whites into chocolate mixture</li>
+      <li>Pour into pan and bake 40 minutes</li>
+      <li>Let cool completely and eat</li>
+    </ul>
+    </article>
+
+    <section>
+    <h2>Here is the image</h2>
+    <p>Just imagine that this is an image of me.</p>
+    <img src="./Sheba1.jpg" width="400" height="600" alt="Silly Cat" >
+      By <a href="https://en.wikipedia.org/wiki/nl:User:Dovenetel" class="extiw" title="w:nl:User:Dovenetel">Dovenetel</a> 
+      at <a href="https://en.wikipedia.org/wiki/nl:" class="extiw" title="w:nl:">Dutch Wikipedia</a> - 
+      Transferred from <span class="plainlinks"><a class="external text" data-mw-original-href="//nl.wikipedia.org" href="https://nl.wikipedia.org">nl.wikipedia</a></span>
+      to Commons., Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=2941865">Link</a>
+    </section>
+    </div>
+    </body>
+</html>
