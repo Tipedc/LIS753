@@ -54,3 +54,7 @@ section {
 .rightBlock a:visited {
     color: aqua;
 }
+
+#goldtext {
+  color: gold;
+}
