@@ -58,7 +58,7 @@ section {
   height: 20%;
   width: 100%;
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid #222222;
 }
 
 .rightBlock a:link {
