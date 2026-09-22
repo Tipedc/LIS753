@@ -10,7 +10,7 @@ h1 {
     color: orangered;
     font-family: Copperplate,fantasy;
     font-weight: bold;
-    font-size: larger;
+    font-size: 40px;
 }
 
 h2 {
@@ -49,6 +49,13 @@ section {
 }
 .rightBlock {
   background-color: sienna;
+}
+
+.topBlock {
+  height: 20%;
+  width: 90%;
+  text-align: center;
+  border: 5px solid black;
 }
 
 .rightBlock a:link {
