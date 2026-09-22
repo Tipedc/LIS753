@@ -10,6 +10,7 @@ h1 {
     color: orangered;
     font-family: Copperplate,fantasy;
     font-weight: bold;
+    font-size: x-large;
 }
 
 h2 {
@@ -35,20 +36,21 @@ body {
     background-color: dimgrey;
 }
 
-article {
-    margin: 5%;
-    padding: 5%;
-    text-align: left;
-    height: 30%;
-    width: 40%;
-    background-color: maroon;
-}
-
 section {
     margin: 5%;
     padding: 5%;
     text-align: left;
     height: 30%;
     width: 40%;
-    background-color: sienna;
+}
+
+.leftBlock {
+  background-color: maroon;
+}
+.rightBlock {
+  background-color: sienna;
+}
+
+.rightBlock a:visited {
+    color: aqua;
 }
