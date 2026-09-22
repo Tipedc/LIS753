@@ -54,11 +54,11 @@ section {
 .topBlock {
   margin: 0;
   padding: 0;
-  padding-bottom: 3%;
+  padding-bottom: 2%;
   height: 20%;
   width: 100%;
   text-align: center;
-  border: 5px solid #777777;
+  border: 5px solid #333333;
 }
 
 .rightBlock a:link {
