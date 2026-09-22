@@ -51,6 +51,9 @@ section {
   background-color: sienna;
 }
 
+.rightBlock a:link {
+    color: unset;
+}
 .rightBlock a:visited {
     color: aqua;
 }
