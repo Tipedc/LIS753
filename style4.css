@@ -1,0 +1,50 @@
+a:link {
+  color: red;
+}
+
+h1 {
+    color: tomato;
+    font-family: Copperplate,fantasy;
+    font-weight: bold;
+}
+
+h2 {
+  color: skyblue;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+div {
+  display:flex;
+}
+
+body {
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    height: 100%;
+    color: #FFFFFF;
+    background: 50% 50% no-repeat;
+    background-color: darkslategrey;
+}
+
+article {
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+    height: 30%;
+    width: 40%;
+    background-color: darkred;
+}
+
+section {
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+    height: 30%;
+    width: 40%;
+    background-color: darkgoldenrod;
+}
