@@ -2,14 +2,18 @@ a:link {
   color: red;
 }
 
+a:visited {
+  color: peru;
+}
+
 h1 {
-    color: tomato;
+    color: orangered;
     font-family: Copperplate,fantasy;
     font-weight: bold;
 }
 
 h2 {
-  color: skyblue;
+  color: tomato;
 }
 
 p {
@@ -28,7 +32,7 @@ body {
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: darkslategrey;
+    background-color: dimgrey;
 }
 
 article {
@@ -37,7 +41,7 @@ article {
     text-align: left;
     height: 30%;
     width: 40%;
-    background-color: darkred;
+    background-color: maroon;
 }
 
 section {
@@ -46,5 +50,5 @@ section {
     text-align: left;
     height: 30%;
     width: 40%;
-    background-color: darkgoldenrod;
+    background-color: sienna;
 }
