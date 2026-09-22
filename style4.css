@@ -59,7 +59,7 @@ section {
 }
 
 .rightBlock a:link {
-    color: unset;
+    color: blue;
 }
 .rightBlock a:visited {
     color: aqua;
