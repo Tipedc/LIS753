@@ -1,0 +1,85 @@
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: peru;
+}
+
+h1 {
+    color: orangered;
+    font-family: Copperplate,fantasy;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+  color: tomato;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+div {
+  display:flex;
+}
+
+body {
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    height: 100%;
+    color: #FFFFFF;
+    background: 50% 50% no-repeat;
+    background-color: dimgrey;
+}
+
+section {
+    margin: 5%;
+    padding: 5%;
+    text-align: left;
+    height: 30%;
+    width: 40%;
+}
+
+.navBar {
+    height: 5%;
+    width: 100%;
+    text-align: left;
+    border: #FFFFFF;
+}
+
+.aNavBar {
+    border: blueviolet;
+    background-color: orange;
+}
+
+.leftBlock {
+  background-color: maroon;
+}
+.rightBlock {
+  background-color: sienna;
+}
+
+.topBlock {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 2%;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+  border: 5px solid #333333;
+}
+
+.rightBlock a:link {
+    color: blue;
+}
+.rightBlock a:visited {
+    color: aqua;
+}
+
+#goldtext {
+  color: gold;
+}
