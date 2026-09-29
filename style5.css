@@ -1,20 +1,20 @@
 a:link {
-  color: green;
+  color: blue;
 }
 
 a:visited {
-  color: brown;
+  color: blueviolet;
 }
 
 h1 {
-    color: burlywood;
+    color: rebeccapurple;
     font-family: Copperplate,fantasy;
     font-weight: bold;
     font-size: 40px;
 }
 
 h2 {
-  color: sandybrown;
+  color: skyblue;
 }
 
 p {
@@ -33,7 +33,7 @@ body {
     height: 100%;
     color: #FFFFFF;
     background: 50% 50% no-repeat;
-    background-color: darkolivegreen;
+    background-color: darkslateblue;
 }
 
 section {
@@ -59,10 +59,10 @@ section {
 }
 
 .leftBlock {
-  background-color: seagreen;
+  background-color: indigo;
 }
 .rightBlock {
-  background-color: sienna;
+  background-color: slategray;
 }
 
 .topBlock {
