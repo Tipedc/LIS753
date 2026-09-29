@@ -27,8 +27,6 @@ div {
 }
 
 body {
-    padding: 5%;
-    margin: 5%;
     text-align: center;
     height: 100%;
     color: #FFFFFF;
@@ -37,8 +35,6 @@ body {
 }
 
 section {
-    margin: 5%;
-    padding: 5%;
     text-align: left;
     height: 60%;
     width: 30%;
@@ -47,12 +43,12 @@ section {
 .navBar {
     height: 10%;
     width: 100%;
-    text-align: left;
-    font-size: 20px;
+    text-align: center;
     border: #FFFFFF;
 }
 
 .aNavBar {
+    font-size: 20px;
     padding-inline: 10px;
     border: 5px solid blueviolet;
     background-color: silver;
