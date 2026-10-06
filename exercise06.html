@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style6.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIS753 Exercise 6</title>
+    <title>LIS753 Exercise 5</title>
   </head>
   <style>
     table {
@@ -21,6 +21,9 @@
         padding-top: 5px;
         padding-bottom: 5px;
         border-bottom: 1px solid black;
+    }
+    form {
+        display: inline-flex;
     }
   </style>
 <body>
@@ -90,15 +93,24 @@
         <br>
 
         <form>
+            <div style="width: 200px;">
             <label>Name: </label>
-            <input type="text" style="margin-left: 13%;"><br>
+            <br>
             <br>
             <label>AOL E-mail: </label>
-            <input type="text" style="margin-left: 11%;"><br>
-            </div>
+            <br>
             <br>
             <label>Program: </label>
-            <select style="margin-left: 13%;">
+            <br>
+            <br>
+            </div>
+            <br>
+            <div style="flex-grow: 1; margin-left: 20%;">
+            <input type="text"><br>
+            <br>
+            <input type="text"><br>
+            <br>
+            <select>
                 <option>Community Book Club</option>
                 <option>Family Story Time</option>
                 <option>Genealogy Workshop</option>
@@ -106,12 +118,13 @@
                 <option>Local History Talk</option>
             </select><br>
             <br>
-            <input type="radio" style="margin-left: 14%;">
+            <input type="radio">
             <label>On Person</label><br>
-            <input type="radio" style="margin-left: 14%;">
+            <input type="radio">
             <label>Inline</label><br>
             <br>
-            <input type="submit" value="Registrar" style="margin-left: 14%;"><br>
+            <input type="submit" value="Registrar"><br>
+            </div>
         </form>
 
     </section>
@@ -121,5 +134,7 @@
         <br>
         <p>Questions?</p>
         <p>Me too my friend, me too.</p>
+        <br>
+        <p>Please excuse the litle jokes and fun in this, the typos are intentional! :)</p>
     </section>
 </body>
