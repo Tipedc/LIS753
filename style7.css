@@ -1,0 +1,84 @@
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+body {
+    padding: 2%;
+    background-color: grey;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    border: 1px dotted white;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: dimgray;
+}
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #555555;
+}
+th, td {
+    border-bottom: 1px solid white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+th {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+    background-color: slategrey;
+    font-style: bold;
+    font-size: 22px;
+}
+td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+form {
+    display: inline-flex;
+}
+
+#textDiv {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #444444;
+}
+
+#subButton {
+    background-color: aliceblue;
+}
+
+#subButton:hover {
+    background-color: green;
+    color: white;
+}
+
+#tableBlock {
+    flex: 2;
+    height: 700px;
+    padding-right: 2%;
+}
+
+#signinBlock {
+    flex: 1;
+}
+
+#midBlock {
+    display: inline-flex;
+}
+
+#botBlock {
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
