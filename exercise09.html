@@ -8,7 +8,7 @@
   </head>
 <body>
     <header>
-    <section id="topBlock" aria->
+    <section id="topBlock">
         <h1>Library Programs</h1>
         <p>Fun upcoming programs happening at the library!</p>
     </section>
@@ -85,23 +85,23 @@ For more info contact Jeremy at (222)222-2222 or Jeremy@jere.my.<br>
 
         <form>
             <div>
-            <label aria-label="Name">Name: </label>
+            <label>Name: </label>
             <br>
             <br>
-            <label aria-label="Email">E-mail: </label>
+            <label>E-mail: </label>
             <br>
             <br>
-            <label aria-label="Program">Program: </label>
+            <label>Program: </label>
             <br>
             <br>
             </div>
             <br>
             <div style="margin-left: 20%;">
-            <input type="text" id="userName" name="userName" placeholder="Your Name" aria-labelledby="Name" required><br>
+            <input type="text" id="userName" name="userName" placeholder="Your Name" aria-label="Name" required><br>
             <br>
-            <input type="text" id="userEmail" name="userEmail" placeholder="Your E-mail" aria-labelledby="Email" required><br>
+            <input type="text" id="userEmail" name="userEmail" placeholder="Your E-mail" aria-label="Email" required><br>
             <br>
-            <select id="progName" aria-labelledby="Program">
+            <select id="progName" aria-label="Program">
                 <option value="bridgeClub" aria-label="Bridge Club">Community Bridge Club</option>
                 <option value="storyTime" aria-label="Story Time">Family Story Time</option>
                 <option value="geneWorkshop" aria-label="Genealogy">Genealogy Workshop</option>
@@ -109,10 +109,10 @@ For more info contact Jeremy at (222)222-2222 or Jeremy@jere.my.<br>
                 <option value="hisTalk" aria-label="History Talk">Local History Talk</option>
             </select><br>
             <br>
-            <input type="radio" name="regLoc" id="rbInperson" value="inperson" aria-labelledby="In Person" required>
-            <label aria-label="In Person">In Person</label><br>
-            <input type="radio" name="regLoc" id="rbOnline" value="online" aria-labelledby="Online" required>
-            <label aria-label="Online">Online</label><br>
+            <input type="radio" name="regLoc" id="rbInperson" value="inperson" aria-label="In Person" required>
+            <label>In Person</label><br>
+            <input type="radio" name="regLoc" id="rbOnline" value="online" aria-label="Online" required>
+            <label>Online</label><br>
             <br>
             <input type="submit" value="Register" id="subButton" aria-label="Submit Form"><br>
             </div>
