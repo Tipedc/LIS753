@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style8.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIS753 Exercise 8</title>
+  </head>
+<body>
+    <section id="topBlock">
+        <h1>Library Programs</h1>
+        <p>Fun upcoming programs happening at the library!</p>
+    </section>
+    <div id="midBlock">
+    <section id="tableBlock">
+        <h2>Upcoming Dates: </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Program</th>
+                    <th scope="col" style="border-left: 1px solid white;">Date</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Community Bridge Club</td>
+                    <td style="border-left: 1px solid white;">Oct. 8</td>
+                    <td>6:30 PM</td>
+                    <td>Room A</td>
+                </tr>
+                <tr>
+                    <td>Family Story Time</td>
+                    <td style="border-left: 1px solid white;">Oct. 10</td>
+                    <td>10:00 PM</td>
+                    <td>Children's Room</td>
+                </tr>
+                <tr>
+                    <td>Genealogy Workshop</td>
+                    <td style="border-left: 1px solid white;">Oct. 12</td>
+                    <td>25:00 PM</td>
+                    <td>Room B</td>
+                </tr>
+                <tr>
+                    <td>Intro to 3D Printing</td>
+                    <td style="border-left: 1px solid white;">Oct. 15</td>
+                    <td>6:00 PM</td>
+                    <td>NYC</td>
+                </tr>
+                <tr>
+                    <td>Local History Talk</td>
+                    <td style="border-left: 1px solid white;">Oct. 32</td>
+                    <td>1:00 PM</td>
+                    <td>Auditorium</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h3>Event Info: </h3>
+        <h4>Next Upcoming: Community Bridge Club!</h4>
+        <div id="textDiv">
+        <p>Open to brand new players or experts.<br>
+<br>
+Bridge is a complicated game so join up with local players to learn or compete!<br>
+<br>
+The club meets once a month on the second Thursday after a full moon.<br>
+<br>
+Bring your own cards or you can use our eclectic collection!<br>
+<br>
+<br>
+<br>
+<br>
+For more info contact Jeremy at (222)222-2222 or Jeremy@jere.my.<br>
+        </p>
+        </div>
+    </section>
+    <section id="signinBlock">
+        <h2>Registration Form</h2>
+        <br>
+
+        <form>
+            <div>
+            <label>Name: </label>
+            <br>
+            <br>
+            <label>E-mail: </label>
+            <br>
+            <br>
+            <label>Program: </label>
+            <br>
+            <br>
+            </div>
+            <br>
+            <div style="margin-left: 20%;">
+            <input type="text" id="userName" name="userName" placeholder="Your Name" required><br>
+            <br>
+            <input type="text" id="userEmail" name="userEmail" placeholder="Your E-mail" required><br>
+            <br>
+            <select id="progName">
+                <option value="bridgeClub">Community Bridge Club</option>
+                <option value="storyTime">Family Story Time</option>
+                <option value="geneWorkshop">Genealogy Workshop</option>
+                <option value="introPrinting">Intro to 3D Printing</option>
+                <option value="hisTalk">Local History Talk</option>
+            </select><br>
+            <br>
+            <input type="radio" name="regLoc" id="rbInperson" value="inperson" required>
+            <label>In Person</label><br>
+            <input type="radio" name="regLoc" id="rbOnline" value="online" required>
+            <label>Online</label><br>
+            <br>
+            <input type="submit" value="Register" id="subButton"><br>
+            </div>
+        </form>
+
+    </section>
+    </div>
+    <section id="botBlock">
+        <h4>THE Library   -   123 West Street Ave.   -   (765) 432 - 1234   -   Everyday 6am - 8pm</h4>
+        <hr>
+        <a href="">Main</a>   -   <a href="">Policy</a>   -   <a href="">Social Media 1</a>   -   <a href="">Social Media 2</a>
+    </section>
+</body>
