@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style9.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIS753 Exercise 9</title>
+  </head>
+<body>
+    <header>
+    <section id="topBlock" aria->
+        <h1>Library Programs</h1>
+        <p>Fun upcoming programs happening at the library!</p>
+    </section>
+    </header>
+    <main>
+    <div id="midBlock">
+    <section id="tableBlock">
+        <h2>Upcoming Dates: </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Program</th>
+                    <th scope="col" style="border-left: 1px solid white;">Date</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Community Bridge Club</td>
+                    <td style="border-left: 1px solid white;">Oct. 8</td>
+                    <td>6:30 PM</td>
+                    <td>Room A</td>
+                </tr>
+                <tr>
+                    <td>Family Story Time</td>
+                    <td style="border-left: 1px solid white;">Oct. 10</td>
+                    <td>10:00 PM</td>
+                    <td>Children's Room</td>
+                </tr>
+                <tr>
+                    <td>Genealogy Workshop</td>
+                    <td style="border-left: 1px solid white;">Oct. 12</td>
+                    <td>25:00 PM</td>
+                    <td>Room B</td>
+                </tr>
+                <tr>
+                    <td>Intro to 3D Printing</td>
+                    <td style="border-left: 1px solid white;">Oct. 15</td>
+                    <td>6:00 PM</td>
+                    <td>NYC</td>
+                </tr>
+                <tr>
+                    <td>Local History Talk</td>
+                    <td style="border-left: 1px solid white;">Oct. 32</td>
+                    <td>1:00 PM</td>
+                    <td>Auditorium</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h3>Event Info: </h3>
+        <h4>Next Upcoming: Community Bridge Club!</h4>
+        <div id="textDiv">
+        <p>Open to brand new players or experts.<br>
+<br>
+Bridge is a complicated game so join up with local players to learn or compete!<br>
+<br>
+The club meets once a month on the second Thursday after a full moon.<br>
+<br>
+Bring your own cards or you can use our eclectic collection!<br>
+<br>
+<br>
+<br>
+<br>
+For more info contact Jeremy at (222)222-2222 or Jeremy@jere.my.<br>
+        </p>
+        </div>
+    </section>
+    <section id="signinBlock">
+        <h2>Registration Form</h2>
+        <br>
+
+        <form>
+            <div>
+            <label aria-label="Name">Name: </label>
+            <br>
+            <br>
+            <label aria-label="Email">E-mail: </label>
+            <br>
+            <br>
+            <label aria-label="Program">Program: </label>
+            <br>
+            <br>
+            </div>
+            <br>
+            <div style="margin-left: 20%;">
+            <input type="text" id="userName" name="userName" placeholder="Your Name" aria-labelledby="Name" required><br>
+            <br>
+            <input type="text" id="userEmail" name="userEmail" placeholder="Your E-mail" aria-labelledby="Email" required><br>
+            <br>
+            <select id="progName" aria-labelledby="Program">
+                <option value="bridgeClub" aria-label="Bridge Club">Community Bridge Club</option>
+                <option value="storyTime" aria-label="Story Time">Family Story Time</option>
+                <option value="geneWorkshop" aria-label="Genealogy">Genealogy Workshop</option>
+                <option value="introPrinting" aria-label="3D Printing">Intro to 3D Printing</option>
+                <option value="hisTalk" aria-label="History Talk">Local History Talk</option>
+            </select><br>
+            <br>
+            <input type="radio" name="regLoc" id="rbInperson" value="inperson" aria-labelledby="In Person" required>
+            <label aria-label="In Person">In Person</label><br>
+            <input type="radio" name="regLoc" id="rbOnline" value="online" aria-labelledby="Online" required>
+            <label aria-label="Online">Online</label><br>
+            <br>
+            <input type="submit" value="Register" id="subButton" aria-label="Submit Form"><br>
+            </div>
+        </form>
+
+    </section>
+    </div>
+    </main>
+    <footer>
+    <section id="botBlock">
+        <h3>THE Library   -   123 West Street Ave.   -   (765) 432 - 1234   -   Everyday 6am - 8pm</h4>
+        <hr>
+        <a href="">Main</a>   -   <a href="">Policy</a>   -   <a href="">Social Media 1</a>   -   <a href="">Social Media 2</a>
+    </section>
+    </footer>
+</body>

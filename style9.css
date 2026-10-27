@@ -1,0 +1,281 @@
+a{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+@media screen and (min-width:1100px){
+    
+body {
+    width: 96vw;
+    padding: 2%;
+    background-color: grey;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+}
+section {
+    border: 1px dotted white;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: dimgray;
+}
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #555555;
+}
+th, td {
+    border-bottom: 1px solid white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+th {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+    background-color: slategrey;
+    font-style: bold;
+    font-size: 22px;
+}
+td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+form {
+    display: inline-flex;
+}
+
+#textDiv {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #444444;
+    flex: none;
+    overflow: hidden;
+}
+
+#tableBlock {
+    flex: 2;
+    padding-bottom: 5%;
+    padding-right: 2%;
+}
+
+#signinBlock {
+    flex: 1;
+}
+
+#midBlock {
+    display: inline-flex;
+}
+
+#botBlock {
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+
+}
+
+@media  screen and (min-width: 525px) and (max-width: 1099px) {
+
+body {
+    padding: 1%;
+    width: 96vw;
+    background-color: grey;
+    color: azure;
+    display: grid;
+    flex-direction: column;
+}
+section {
+    border: 1px dotted white;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: dimgray;
+}
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-align: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #555555;
+}
+th, td {
+    border-bottom: 1px solid white;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+th {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid white;
+    background-color: slategrey;
+    font-style: bold;
+    font-size: 18px;
+}
+td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+form {
+    display: flex;
+    padding-left: 15%;
+}
+
+#textDiv {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #444444;
+    flex: none;
+    overflow: hidden;
+}
+
+#topBlock {
+    flex: auto;
+}
+
+#tableBlock {
+    flex: auto;
+    flex-shrink: inherit;
+    flex-grow: inherit;
+    padding-bottom: 5%;
+    padding-right: 2%;
+}
+
+#signinBlock {
+    flex: auto;
+    padding-bottom: 2%;
+}
+
+#midBlock {
+    display: grid;
+}
+
+#botBlock {
+    flex-wrap: wrap;
+    flex: auto;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#botBlock h3 {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+}
+
+@media  screen and (max-width: 524px) {
+    
+    body {
+    padding: 0%;
+    width: 96vw;
+    background-color: grey;
+    color: azure;
+    display: grid;
+    flex-direction: column;
+    font-size: x-small;
+}
+section {
+    border: 1px dotted white;
+    padding-left: 2%;
+    margin: 1%;
+    background-color: dimgray;
+}
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-small;
+    text-align: left;
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color: #555555;
+}
+th, td {
+    border-bottom: 1px solid white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+th {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+    background-color: slategrey;
+    font-style: bold;
+    font-size: 12px;
+}
+td {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+form {
+    display: flex;
+    padding-left: 5%;
+}
+
+#textDiv {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 15px;
+    background-color: #444444;
+    flex: none;
+    overflow: hidden;
+}
+
+#topBlock {
+    flex: auto;
+}
+
+#tableBlock {
+    flex: auto;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+#signinBlock {
+    flex: auto;
+    flex-shrink: inherit;
+    padding-bottom: 2%;
+}
+
+#signinBlock input {
+    font-size: 1ch;
+}
+#signinBlock select {
+    font-size: 1ch;
+}
+
+#midBlock {
+    display: grid;
+}
+
+#botBlock {
+    flex-wrap: wrap;
+    flex: auto;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#botBlock h3 {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+}
+
+#subButton {
+    background-color: aliceblue;
+}
+
+#subButton:hover {
+    background-color: green;
+    color: white;
+}
