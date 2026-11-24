@@ -1,3 +1,5 @@
+var thing = 0;
+
 document.getElementById("form").addEventListener("submit", validateForm);
 document.getElementById("details1").addEventListener("click", myFunction1);
 document.getElementById("details2").addEventListener("click", myFunction2);
@@ -7,7 +9,7 @@ document.getElementById("details5").addEventListener("click", myFunction5);
 
 function validateForm() {
   var name = document.forms["form"]["userName"].value;
-  var thing = document.forms["form"]["progName"].value;
+  thing = document.forms["form"]["progName"].value;
   document.getElementById("updateText").innerText = "Thank you, " + name + "! You are signed up for " + thing + "!";
   document.getElementById("form").preventDefault;
   document.forms["form"].reset;
