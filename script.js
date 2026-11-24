@@ -1,8 +1,15 @@
+
 document.getElementById("details1").addEventListener("click", myFunction1);
 document.getElementById("details2").addEventListener("click", myFunction2);
 document.getElementById("details3").addEventListener("click", myFunction3);
 document.getElementById("details4").addEventListener("click", myFunction4);
 document.getElementById("details5").addEventListener("click", myFunction5);
+
+function validateForm() {
+  var name = document.forms["form"]["userName"].value;
+  var thing = document.forms["form"]["progName"].label;
+  document.getElementById("updateText").innerText = "Thank you, " + name() + "! You are signed up for " + thing() + "!";
+}
 
 function myFunction1() {
   document.getElementById("detailsText").innerHTML = "Open to brand new players or experts.<br><br>Bridge is a complicated game so join up with local players to learn or compete!<br><br>The club meets once a month on the second Thursday after a full moon.<br><br>Bring your own cards or you can use our eclectic collection!<br><br><br><br><br>For more info contact Jeremy at (222)222-2222 or Jeremy@jere.my.<br>";
