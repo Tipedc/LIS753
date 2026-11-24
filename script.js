@@ -7,10 +7,10 @@ document.getElementById("details5").addEventListener("click", myFunction5);
 
 function validateForm() {
   var name = document.forms["form"]["userName"].value;
-  var thing = document.forms["form"]["progName"].label;
+  var thing = document.forms["form"]["progName"].value;
   document.getElementById("updateText").innerText = "Thank you, " + name + "! You are signed up for " + thing + "!";
   document.getElementById("form").preventDefault;
-  document.getElementById("form").reset;
+  document.forms["form"].reset;
 }
 
 function myFunction1() {
