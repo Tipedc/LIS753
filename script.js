@@ -10,6 +10,7 @@ function validateForm() {
   var thing = document.forms["form"]["progName"].label;
   document.getElementById("updateText").innerText = "Thank you, " + name + "! You are signed up for " + thing + "!";
   document.getElementById("form").preventDefault;
+  document.getElementById("form").reset;
 }
 
 function myFunction1() {
