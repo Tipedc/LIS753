@@ -6,10 +6,10 @@ document.getElementById("details4").addEventListener("click", myFunction4);
 document.getElementById("details5").addEventListener("click", myFunction5);
 
 function validateForm() {
-  document.getElementById("form").preventDefault;
   var name = document.forms["form"]["userName"].value;
   var thing = document.forms["form"]["progName"].label;
-  document.getElementById("updateText").innerText = "Thank you, " + name() + "! You are signed up for " + thing() + "!";
+  document.getElementById("updateText").innerText = "Thank you, " + name + "! You are signed up for " + thing + "!";
+  document.getElementById("form").preventDefault;
 }
 
 function myFunction1() {
